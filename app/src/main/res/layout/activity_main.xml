@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.vote4.calc.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TableLayout
+        android:layout_width="215dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:layout_marginTop="100dp"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="54dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="1"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="69dp"
+                        tools:layout_editor_absoluteY="143dp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="2"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="123dp"
+                        tools:layout_editor_absoluteY="143dp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="3"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="177dp"
+                        tools:layout_editor_absoluteY="143dp" />
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="+"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="231dp"
+                        tools:layout_editor_absoluteY="143dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="4"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="69dp"
+                        tools:layout_editor_absoluteY="197dp" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="6"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="177dp"
+                        tools:layout_editor_absoluteY="197dp" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="5"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="123dp"
+                        tools:layout_editor_absoluteY="197dp" />
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="-"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="231dp"
+                        tools:layout_editor_absoluteY="197dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="7"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="69dp"
+                        tools:layout_editor_absoluteY="251dp" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="8"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="123dp"
+                        tools:layout_editor_absoluteY="251dp" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="9"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="177dp"
+                        tools:layout_editor_absoluteY="251dp" />
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="/"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="231dp"
+                        tools:layout_editor_absoluteY="251dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="0"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="69dp"
+                        tools:layout_editor_absoluteY="305dp" />
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text=","
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="123dp"
+                        tools:layout_editor_absoluteY="305dp" />
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="="
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="177dp"
+                        tools:layout_editor_absoluteY="305dp" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:text="*"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="231dp"
+                        tools:layout_editor_absoluteY="305dp" />
+                </TableRow>
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="216dp">
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear" />
+        </TableRow>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
